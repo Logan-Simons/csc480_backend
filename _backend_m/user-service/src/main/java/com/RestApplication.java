@@ -1,8 +1,8 @@
-package main.java.com.quotes;
+package com.accounts;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
 
-@ApplicationPath("/api")
+@ApplicationPath("/users")
 public class RestApplication extends Application {
 }

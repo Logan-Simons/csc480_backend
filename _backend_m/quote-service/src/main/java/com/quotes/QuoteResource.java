@@ -9,6 +9,7 @@ import jakarta.ws.rs.core.MediaType;
 public class QuoteResource {
 
     @GET
+    @Path("/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public String getQuote() {
         return "{\"quote\": \"The only limit to our realization of tomorrow is our doubts of today.\"}";
